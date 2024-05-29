@@ -74,11 +74,14 @@ a:focus {
   color: #fffdd0;
   text-transform: uppercase;
   border: 2px solid #9a031e;
+
 }
-.btn:hover {
-  background-color: #9a031e;
-  color: #ffffff;
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
+
+
 .btn:visited {
   background-color: #2733b8;
   color: #ffffff;
