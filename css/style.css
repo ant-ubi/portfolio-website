@@ -91,7 +91,6 @@ a:focus {
 .btn.contact:hover {
   background-color: transparent;
   color: #ff7f50;
-  text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
 .btn.contact:visited {
@@ -104,9 +103,9 @@ a:focus {
   color: #ffffff;
 }
 .btn.cv:hover {
-  background-color: #2733b8;
+  background-color: #fffdd0;
   color: #ffffff;
-  border: 2px solid #ff7f50;
+  border: 2px solid #9a031e;
 }
 .btn.cv:visited {
   background-color: #2733b8;
