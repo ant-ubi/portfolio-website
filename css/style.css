@@ -2,6 +2,7 @@
 Colors used:
 Primary Color (White): #ffffff;
 Primary Color (Black): #000000;
+Primary Color (Wine Red): #9a031e
 Secondary Color (Grey): #747572;
 Secondary Color (Cream): #fffdd0;
 */
@@ -48,18 +49,18 @@ body {
   }
 
   a:hover {
-    color: #000000;
+    color: #fffdd0;
     text-decoration: underline; /* Underlining when hovering over a link */
   }
   a:visited { /* visited link */
     color: #000000
   }
   a:active { /* selected link */
-    color: #000000;
+    color: #9a031e;
   }
   a:hover,
 a:focus {
-  color: #000000;
+  color: #747572;
   text-decoration: underline;
 }
 
