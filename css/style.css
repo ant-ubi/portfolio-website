@@ -66,22 +66,19 @@ a:focus {
   font-weight: 400;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 3px solid #2733b8; /* width of the border, type, color */
+  border-bottom: 3px solid #9a031e; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .btn:active {
-  background-color: transparent;
-  color: #fffdd0;
+  background-color: #9a031e;
+  color: #9a031e;
   text-transform: uppercase;
   border: 2px solid #9a031e;
-
 }
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
-
 .btn:visited {
   background-color: #2733b8;
   color: #ffffff;
