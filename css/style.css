@@ -71,7 +71,7 @@ a:focus {
 }
 
 .btn:visited { /* visited link */
-  color: #ffffff
+  color: #fffdd0
 }
 
 .btn:hover,
@@ -97,7 +97,7 @@ a:focus {
 
 .btn.contact:visited,
 .btn.cv:visited { /* visited link */
-  color: #ffffff
+  color: #fffdd0
 }
 
 .btn.contact:hover,
