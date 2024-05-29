@@ -23,7 +23,7 @@ body {
   }
   h1 {
     font-size: 2.75em;
-    font-weight: 700;
+    font-weight: 800;
   }
   
   h2 {
@@ -33,9 +33,61 @@ body {
   
   h3 {
     font-size: 1.75em;
-    font-weight: 400;
+    font-weight: 500;
   }
   h4 {
     font-size: 1.35em;
     font-weight: 400;
   }
+  img {
+    width: 100%;
+  }
+  a {
+    color: #ff7f50;
+    text-decoration: none; /* No underlining */
+  }
+
+  a:hover {
+    color: #cc6540;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+  a:visited { /* visited link */
+    color: #ff7f50;
+  }
+  a:active { /* selected link */
+    color: #994c30;
+  }
+  a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
+
+.btn project-card__btn {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ff7f50;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.btn project-card__btn {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+.btn project-card__btn {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+.btn project-card__btn{
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+.btn project-card__btn {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
