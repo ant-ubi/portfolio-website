@@ -65,8 +65,8 @@ a:focus {
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
-  border-radius: 4px;
-  border-bottom: 3px solid #9a031e; /* width of the border, type, color */
+  border-radius: 3px;
+  border-bottom: 2px solid #9a031e; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .btn:active {
@@ -100,16 +100,15 @@ a:focus {
 }
 
 .btn.cv:active {
-  background-color: #ff7f50;
+  background-color: #9a031e;
   color: #ffffff;
 }
 .btn.cv:hover {
-  background-color: transparent;
-  color: #ff7f50;
-  text-transform: uppercase;
+  background-color: #2733b8;
+  color: #ffffff;
   border: 2px solid #ff7f50;
 }
 .btn.cv:visited {
-  background-color: #ff7f50;
+  background-color: #2733b8;
   color: #ffffff;
 }
