@@ -70,7 +70,7 @@ a:focus {
   transition: 0.2s opacity;
 }
 
-btn:visited { /* visited link */
+.btn:visited { /* visited link */
   color: #ffffff
 }
 
@@ -80,7 +80,7 @@ btn:visited { /* visited link */
   text-decoration: none;
 }
 
-btn:active { /* selected link */
+.btn:active { /* selected link */
   color: #fffdd0;
 }
 
@@ -96,3 +96,20 @@ btn:active { /* selected link */
   transition: 0.2s opacity;
 }
 
+.btn.contact:visited,
+.btn.cv:visited { /* visited link */
+  color: #ffffff
+}
+
+.btn.contact:hover,
+.btn.contact:focus,
+.btn.cv:hover
+.btn.cv:focus {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.btn.contact:visited,
+.btn.cv:visited { /* selected link */
+  color: #fffdd0;
+}
