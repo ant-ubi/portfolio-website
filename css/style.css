@@ -63,7 +63,7 @@ a:focus {
   text-decoration: underline;
 }
 
-.btn{
+.btn {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff7f50;
   color: #ffffff; /* needed to override the default link color */
@@ -73,32 +73,47 @@ a:focus {
   border-bottom: 2px solid #994c30; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
-.btn:active{
+.btn:active {
   background-color: transparent;
   color: #ff7f50;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
-.btn:hover{
+.btn:hover {
   background-color: #ff7f50;
   color: #ffffff;
 }
-.btn:visited{
+.btn:visited {
   background-color: #ff7f50;
   color: #ffffff;
 }
 
-.btn.contact:active{
+.btn.contact:active {
   background-color: #ff7f50;
   color: #ffffff;
 }
-.btn.contact:hover{
+.btn.contact:hover {
   background-color: transparent;
   color: #ff7f50;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
-.btn-contact:visited {
+.btn.contact:visited {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+.btn.cv:active {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+.btn.cv:hover {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+.btn.cv:visited {
   background-color: #ff7f50;
   color: #ffffff;
 }
