@@ -105,10 +105,10 @@ a:focus {
 .btn.cv:hover
 .btn.cv:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.btn.contact:visited,
-.btn.cv:visited { /* selected link */
+.btn.contact:active,
+.btn.cv:active { /* selected link */
   color: #fffdd0;
 }
