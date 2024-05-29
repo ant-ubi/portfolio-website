@@ -61,26 +61,26 @@ a:focus {
 
 .btn {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff7f50;
+  background-color: #9a031e;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  border-radius: 4px;
+  border-bottom: 3px solid #2733b8; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .btn:active {
   background-color: transparent;
-  color: #ff7f50;
+  color: #fffdd0;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #9a031e;
 }
 .btn:hover {
-  background-color: #ff7f50;
+  background-color: #9a031e;
   color: #ffffff;
 }
 .btn:visited {
-  background-color: #ff7f50;
+  background-color: #2733b8;
   color: #ffffff;
 }
 
