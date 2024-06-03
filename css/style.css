@@ -47,14 +47,14 @@ Secondary Color (Cream): #fffdd0;
   a:visited { /* visited link */
     color: #2733b8
   }
+  a:hover,
+  a:focus {
+    color: #9a031e;
+    text-decoration: underline;
+  }
   a:active { /* selected link */
     color: #fffdd0;
   }
-  a:hover,
-a:focus {
-  color: #9a031e;
-  text-decoration: underline;
-}
 
 .btn {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
