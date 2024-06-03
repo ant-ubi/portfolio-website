@@ -102,7 +102,7 @@ Secondary Color (Cream): #fffdd0;
 .btn.cv:hover
 .btn.cv:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn.contact:active,
