@@ -90,3 +90,9 @@ Secondary Color (Cream): #fffdd0;
 .btn.cv:active { /* selected link */
   color: #2733b8;
 }
+
+header {
+  background-color: #fffdd0;
+  padding: 10px 5px;
+  margin: 10px;
+}
