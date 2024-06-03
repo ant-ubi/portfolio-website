@@ -45,11 +45,11 @@ Secondary Color (Cream): #fffdd0;
     text-decoration: none; /* No underlining */
   }
   a:visited { /* visited link */
-    color: #2733b8
+    color: #9a031e
   }
   a:hover,
   a:focus {
-    color: #9a031e;
+    color: #2733b8;
     text-decoration: underline;
   }
   a:active { /* selected link */
@@ -68,7 +68,7 @@ Secondary Color (Cream): #fffdd0;
 }
 
 .btn:visited { /* visited link */
-  color: #fffdd0
+  color: #ffffff
 }
 
 .btn:hover,
@@ -94,7 +94,7 @@ Secondary Color (Cream): #fffdd0;
 
 .btn.contact:visited,
 .btn.cv:visited { /* visited link */
-  color: #fffdd0
+  color: #ffffff
 }
 
 .btn.contact:hover,
