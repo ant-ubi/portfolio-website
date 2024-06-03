@@ -121,6 +121,7 @@ header {
   box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
   -webkit-box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
   -moz-box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
+  position:relative
 }
 
 nav > ul {
