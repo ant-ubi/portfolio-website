@@ -93,6 +93,10 @@ Secondary Color (Cream): #fffdd0;
 
 /* Layout styling */
 
+.container {
+  padding: 0 15px;
+}
+
 header {
   background-color: #fffdd0;
   padding: 10px 5px;
