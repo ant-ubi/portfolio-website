@@ -42,7 +42,7 @@ Secondary Color (Cream): #fffdd0;
   }
   a {
     color: #000000;
-    text-decoration: none; /* No underlining */
+    text-decoration: underline; /* Underlining */
   }
   a:visited { /* visited link */
     color: #9a031e
@@ -50,7 +50,7 @@ Secondary Color (Cream): #fffdd0;
   a:hover,
   a:focus {
     color: #2733b8;
-    text-decoration: underline;
+    text-decoration: none;
   }
   a:active { /* selected link */
     color: #fffdd0;
