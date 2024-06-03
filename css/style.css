@@ -60,7 +60,7 @@ Secondary Color (Cream): #fffdd0;
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #2733b8;
   color: #ffffff; /* needed to override the default link color */
-  font-weight: 400;
+  font-weight: 300;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #9a031e; /* width of the border, type, color */
@@ -83,26 +83,7 @@ Secondary Color (Cream): #fffdd0;
 
 .btn.contact,
 .btn.cv {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #9a031e;
-  color: #ffffff; /* needed to override the default link color */
-  font-weight: 500;
-  padding: 15px;
-  border-radius: 4px;
-  transition: 0.2s opacity;
-}
-
-.btn.contact:visited,
-.btn.cv:visited { /* visited link */
-  color: #ffffff
-}
-
-.btn.contact:hover,
-.btn.contact:focus,
-.btn.cv:hover
-.btn.cv:focus {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
 }
 
 .btn.contact:active,
