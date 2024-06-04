@@ -158,5 +158,8 @@ nav > ul > li > a:active {
 #hero {
   background-color: #fffdd0;
   padding: 20px 0;
-  display: inline-block;
+}
+
+main {
+  padding-top: 133px;
 }
