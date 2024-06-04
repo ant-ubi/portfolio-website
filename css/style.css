@@ -116,6 +116,7 @@ header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
+  width: 100%;
   border: solid #2733B8 0; 
   box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
   -webkit-box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
