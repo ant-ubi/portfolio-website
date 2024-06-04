@@ -99,6 +99,7 @@ Secondary Color (Cream): #fffdd0;
 
 .container {
   padding: 0 15px;
+  max-width: 1200px;
 }
 
 .row {
@@ -117,6 +118,7 @@ header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
+  margin: 10px;
   border-bottom: 3px solid #2733b8;
   width: [object Object]px; 
   height: [object Object]px; 
@@ -131,6 +133,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav > ul > li {
@@ -142,6 +145,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
+  width: 100%
 }
 
 nav > ul > li > a:visited {
@@ -162,11 +166,4 @@ nav > ul > li > a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-}
-
-
-
-
-selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
 }
