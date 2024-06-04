@@ -141,7 +141,20 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #000000;
+}
+
+nav > ul > li > a:visited {
+  color: #9a031e;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  color: #2733b8;
+}
+
+nav > ul > li > a:active {
+  color: #fffdd0;
 }
 
 #hero {
