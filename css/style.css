@@ -7,13 +7,17 @@ Secondary Color (Blue): #2733b8;
 Secondary Color (Cream): #fffdd0;
 */
 
+* {
+  box-sizing: border-box;
+}
+
   body {
     background-color: #ffffff;
     font-family: 'Urbanist', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 300; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #9a031e;
+    color: #9a031e; 
   }
   
   h1, h2, h3, h4 {
