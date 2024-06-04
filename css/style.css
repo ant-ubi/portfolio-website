@@ -46,10 +46,9 @@ img {
 }
 a {
   color: #000000;
-  text-decoration: underline; /* Underlining */
 }
 a:visited { /* visited link */
-  color: #9a031e
+  color: #000000;
 }
 a:hover,
 a:focus {
@@ -72,7 +71,7 @@ a:active { /* selected link */
 }
 
 .btn:visited { /* visited link */
-  color: #ffffff
+  color: #ffffff;
 }
 
 .btn:hover,
@@ -98,8 +97,6 @@ a:active { /* selected link */
 /* Layout styling */
 
 .container {
-  padding: 0 15px;
-  max-width: 100%;
   margin: 0px;
 }
 
@@ -119,14 +116,11 @@ header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
-  margin: 10px;
-  border-bottom: 3px solid #2733b8;
-  background: #ffffff; 
   border: solid #2733B8 0; 
   box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
   -webkit-box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
   -moz-box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
-  position:relative
+  position: fixed;
 }
 
 nav > ul {
@@ -144,11 +138,11 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
-  width: 100%
+ 
 }
 
 nav > ul > li > a:visited {
-  color: #9a031e;
+  color: #000000;
 }
 
 nav > ul > li > a:hover,
@@ -163,6 +157,4 @@ nav > ul > li > a:active {
 #hero {
   background-color: #fffdd0;
   padding: 20px 0;
-  display: inline-block;
-  width: 100%;
 }
