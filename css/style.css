@@ -164,3 +164,7 @@ nav > ul > li > a:active {
 main {
   padding-top: 250px;
 }
+
+#work.row {
+  background-color: #000000; /* TO BE CHANGED */
+}
