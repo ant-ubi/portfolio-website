@@ -165,6 +165,18 @@ main {
   padding-top: 250px;
 }
 
-#work.row {
-  background-color: #000000; /* TO BE CHANGED */
+#contact {
+  background-color: #2733B8;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#hero span {
+  color: #00283F;
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  line-height: 1.2;
+  margin-top: -15px;
 }
