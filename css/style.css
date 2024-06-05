@@ -251,8 +251,16 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+  .col-md-5 {
+    width: 40%;
+  }
+
   .col-md-6 {
     width: 50%;
+  }
+
+  .col-md-7 {
+    width: 60%;
   }
 }
 
@@ -268,6 +276,11 @@ Medium devices (640px and larger)
   display: table;
 }
 
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* ==============================
 Large devices (1024px or larger)
