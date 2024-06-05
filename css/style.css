@@ -172,6 +172,18 @@ nav > ul > li > a:active {
   color:#000000;
 }
 
+#project-card__content-wrapper {
+  padding-left: 20px;
+}
+
+#work h2 {
+  text-align: center;
+}
+
+#work p {
+  color: #2733b8;
+}
+
 main {
   padding-top: 250px;
 }
