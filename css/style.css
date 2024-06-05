@@ -172,16 +172,18 @@ nav > ul > li > a:active {
   color:#000000;
 }
 
+#hero ol {
+  list-style-type: inside;
+  text-align: center;
+  display: inline-block;
+}
+
 #work h2 {
   text-align: center;
 }
 
 #work p {
   color: #2733b8;
-}
-
-main {
-  padding-top: 250px;
 }
 
 #profile {
@@ -198,4 +200,17 @@ main {
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
+}
+
+main {
+  padding-top: 250px;
+}
+
+main p,
+main ul {
+  color:#2733b8
+}
+
+#key-takeaway {
+  padding-bottom: 30px;
 }
