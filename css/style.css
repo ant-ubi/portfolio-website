@@ -174,7 +174,7 @@ nav > ul > li > a:active {
 
 #hero ol {
   list-style-type: inside;
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
@@ -209,6 +209,14 @@ main {
 main p,
 main ul {
   color:#2733b8
+}
+
+#process {
+  background-color: #9a031e;
+  padding: 20px 0;
+  text-align: center;
+  list-style-position: inside;
+  color: #ffffff
 }
 
 #key-takeaway {
