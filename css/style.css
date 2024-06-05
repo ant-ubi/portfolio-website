@@ -161,6 +161,17 @@ nav > ul > li > a:active {
   text-align: center;
 }
 
+#hero span {
+  font-size: 20px;
+  display: block;
+  padding-top: 20px;
+  color: #2733b8;
+}
+
+#hero p {
+  color:#000000;
+}
+
 main {
   padding-top: 250px;
 }
@@ -170,13 +181,4 @@ main {
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
-}
-
-#hero span {
-  color: #00283F;
-  font-weight: 400;
-  font-size: 16px;
-  display: block;
-  line-height: 1.2;
-  margin-top: -15px;
 }
