@@ -172,10 +172,6 @@ nav > ul > li > a:active {
   color:#000000;
 }
 
-#project-card__content-wrapper {
-  padding-left: 20px;
-}
-
 #work h2 {
   text-align: center;
 }
@@ -188,7 +184,12 @@ main {
   padding-top: 250px;
 }
 
-#profile p {
+#profile {
+  padding-bottom: 30px;
+}
+
+#profile p,
+#profile ul {
   color:#2733b8
 }
 
