@@ -188,6 +188,10 @@ main {
   padding-top: 250px;
 }
 
+#profile p {
+  color:#2733b8
+}
+
 #contact {
   background-color: #2733B8;
   color: #ffffff;
