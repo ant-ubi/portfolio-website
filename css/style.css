@@ -293,3 +293,20 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 }
+
+/* ==============================
+Animation
+================================= */
+@keyframes color-change {
+  0% {fill: #f4ff27;}
+  50% {fill: #bafa2e;}
+  100% {fill: #1cd004;}
+}
+
+.cactus {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
