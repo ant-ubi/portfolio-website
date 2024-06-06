@@ -282,6 +282,12 @@ Medium devices (640px and larger)
   margin-right: auto;
 }
 
+#about-picture {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
