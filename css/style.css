@@ -67,8 +67,7 @@ a:active { /* selected link */
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #9a031e; /* width of the border, type, color */
-  transition-duration: 0.2s;
-  transition-property: opacity;
+  transition: 0.2s opacity;
 }
 
 .btn:visited { /* visited link */
