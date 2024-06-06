@@ -303,15 +303,11 @@ Large devices (1024px or larger)
     margin-top: 4px;
   }
 
-  .col-md-5 {
+  .col-lg-5 {
     width: 40%;
   }
 
-  .col-md-6 {
-    width: 50%;
-  }
-
-  .col-md-7 {
+  .col-lg-7 {
     width: 60%;
   }
 }
