@@ -68,6 +68,7 @@ a:active { /* selected link */
   border-radius: 3px;
   border-bottom: 2px solid #9a031e; /* width of the border, type, color */
   transition: 0.2s opacity;
+  text-decoration: none;
 }
 
 .btn:visited { /* visited link */
@@ -102,6 +103,18 @@ a:active { /* selected link */
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15);
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.project-card_content-wrapper {
+  padding: 0 1em 2em;
 }
 
 #hero h1 {
