@@ -227,6 +227,10 @@ nav > ul > li > a:active {
   gap: 1em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   padding-top: 71.99px;
 }
@@ -242,6 +246,13 @@ main ul {
   text-align: center;
   list-style-position: inside;
   color: #ffffff
+}
+
+.process-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 #key-takeaway {
