@@ -11,6 +11,10 @@ Secondary Color (Cream): #fffdd0;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Urbanist', sans-serif;
@@ -98,11 +102,16 @@ a:active { /* selected link */
 /* Layout styling */
 
 .container {
-  padding-inline: 0 15px;
+  padding-inline: 15px;
 }
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.gs.row {
+  max-width: 68ch;
+  margin-inline: auto;
 }
 
 .project-card {
@@ -233,10 +242,6 @@ nav > ul > li > a:active {
   gap: 1em;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 main {
   padding-top: 62.59px;
 }
@@ -258,6 +263,10 @@ main ul {
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.user-persona_image {
+  max-width: 300;
 }
 
 #key-takeaway {
