@@ -222,6 +222,11 @@ nav > ul > li > a:active {
   height: 400px;
   object-fit: cover;
   object-position: 0 38%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  max-width: 4080px;
+  display: block;
+
 }
 
 #contact {
@@ -337,48 +342,9 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-  .col-lg-5 {
-    width: 40%;
-  }
-
-  .col-lg-7 {
-    width: 60%;
-  }
-
-  [class*="col-"] {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
   .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     padding-inline: 15px;
-  }
-  
-  #about-picture {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
   }
 }
 
