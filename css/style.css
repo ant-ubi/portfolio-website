@@ -209,6 +209,12 @@ nav > ul > li > a:active {
   color:#2733b8
 }
 
+.profile-image {
+  height: 400px;
+  object-fit: cover;
+  object-position: 0 38%;
+}
+
 #contact {
   background-color: #2733B8;
   color: #ffffff;
@@ -232,7 +238,7 @@ html {
 }
 
 main {
-  padding-top: 71.99px;
+  padding-top: 62.59px;
 }
 
 main p,
@@ -260,6 +266,10 @@ main ul {
 
 #about-page h3 { 
   margin-top: 0;
+}
+
+.menses-logo {
+  max-width: 300px;
 }
 
 /* ==============================
