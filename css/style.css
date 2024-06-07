@@ -216,12 +216,15 @@ nav > ul > li > a:active {
   text-align: center;
 }
 
-.social { 
-  display: inline block; 
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.social a { 
   width: 32px; 
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 
 main {
