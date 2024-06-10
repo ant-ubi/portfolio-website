@@ -136,7 +136,7 @@ a:active { /* selected link */
 
 header {
   background-color: #ffffff;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   width: 100%;
   border: solid #2733B8 0; 
   box-shadow: 9px 0 15px rgba(39, 51, 184, 0.5)  ; 
@@ -273,7 +273,7 @@ nav > ul > li > a:active {
 }
 
 main {
-  padding-top: 62.59px;
+  padding-top: 40.4px;
 }
 
 main p,
@@ -324,6 +324,10 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 
   .navtoggle li:not(:last-child) {
