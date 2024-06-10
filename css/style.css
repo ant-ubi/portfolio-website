@@ -238,6 +238,7 @@ nav > ul > li > a:active {
 
 .social a { 
   width: 32px; 
+  color: #fffdd0;
 }
 
 .social {
@@ -245,6 +246,19 @@ nav > ul > li > a:active {
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+
+.social a:visited {
+  color: #fffdd0;
+}
+
+.social a:hover,
+.social a:focus {
+  color:#9a031e
+}
+
+.social a:active { /* selected link */
+  color: #000000;
 }
 
 main {
