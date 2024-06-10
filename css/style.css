@@ -167,6 +167,10 @@ nav > ul {
   padding-right: 0;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
