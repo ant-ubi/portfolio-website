@@ -159,6 +159,14 @@ nav > ul {
   position: relative;
 }
 
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
