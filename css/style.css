@@ -151,6 +151,14 @@ nav > ul {
   margin: 0;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -308,6 +316,14 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   nav > ul > li {
