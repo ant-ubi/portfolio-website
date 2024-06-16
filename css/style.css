@@ -139,6 +139,7 @@ a:active { /* selected link */
 
 .logo {
   max-width: 150px;
+  align-self: center;
 }
 
 header {
@@ -255,6 +256,9 @@ nav > ul > li > a:active {
 
 .profile-image {
   margin: 0 auto;
+  width: 300px;
+  align-self: center;
+  border-radius: 50%;
 }
 
 #contact {
@@ -396,10 +400,6 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
   
-  .about-picture {
-    width: 300px;
-    align-self: center;
-  }
 }
 
 /* ==============================
