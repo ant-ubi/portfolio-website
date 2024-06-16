@@ -398,6 +398,7 @@ Medium devices (640px and larger)
   
   .about-picture {
     width: 300px;
+    align-self: center;
   }
 }
 
