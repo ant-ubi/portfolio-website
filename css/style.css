@@ -125,6 +125,15 @@ a:active { /* selected link */
   margin: 10px;
 }
 
+.project-card_animation {
+display: flex;
+flex-direction: column;
+box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15);
+border-radius: 1em;
+overflow: hidden;
+margin: 10px;
+}
+
 .project-card_content-wrapper {
   padding: 0 1em 2em;
 }
@@ -386,6 +395,10 @@ Medium devices (640px and larger)
 
   .project-card {
     flex-direction: row-reverse;
+  }
+
+  .project-card_animation {
+    flex-direction: column;
   }
   
   .row::after {
