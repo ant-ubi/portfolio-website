@@ -103,6 +103,8 @@ a:active { /* selected link */
 
 .container {
   padding-inline: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .row {
@@ -116,10 +118,11 @@ a:active { /* selected link */
 
 .project-card {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15);
   border-radius: 1em;
   overflow: hidden;
+  margin: 10px;
 }
 
 .project-card_content-wrapper {
@@ -251,14 +254,7 @@ nav > ul > li > a:active {
 }
 
 .profile-image {
-  height: 400px;
-  object-fit: cover;
-  object-position: 0 38%;
-  aspect-ratio: 1/1;
-  border-radius: 100%;
-  max-width: 4080px;
-  display: block;
-
+  margin: 0 auto;
 }
 
 #contact {
@@ -294,7 +290,7 @@ nav > ul > li > a:active {
 }
 
 main {
-  padding-top: 40.4px;
+  padding-top: 90.59px;
 }
 
 main p,
@@ -335,10 +331,14 @@ main ul {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
+  }
+
+  .logo {
+    margin-top: 15px;
   }
 
   nav {
@@ -379,6 +379,10 @@ Medium devices (640px and larger)
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .project-card {
+    flex-direction: row-reverse;
+  }
   
   .row::after {
     content: "";
@@ -392,10 +396,8 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
   
-  #about-picture {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  .about-picture {
+    width: 300px;
   }
 }
 
@@ -407,6 +409,7 @@ Large devices (1024px or larger)
   .container {
     padding-inline: 15px;
   }
+
 }
 
 /* ==============================
