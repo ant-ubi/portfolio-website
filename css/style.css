@@ -126,6 +126,10 @@ a:active { /* selected link */
   padding: 0 1em 2em;
 }
 
+.section {
+  padding-block: 3em;
+}
+
 #hero h1 {
   text-align: center; /* Centers text */
 }
