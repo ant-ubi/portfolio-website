@@ -16,17 +16,18 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Urbanist', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #9a031e; 
+  color: #9a031e;
 }
 
-h1, h2, h3, h4 {
+h1 h2 h3 h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 800;
@@ -41,24 +42,30 @@ h3 {
   font-size: 1.75em;
   font-weight: 500;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
 img {
   width: 100%;
 }
+
 a {
-  color: #000000;
+  color: #000;
 }
+
 a:visited { /* visited link */
-  color: #000000;
+  color: #000;
 }
+
 a:hover,
 a:focus {
   color: #2733b8;
   text-decoration: none;
 }
+
 a:active { /* selected link */
   color: #fffdd0;
 }
@@ -66,7 +73,7 @@ a:active { /* selected link */
 .btn {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #2733b8;
-  color: #ffffff; /* needed to override the default link color */
+  color: #fff; /* needed to override the default link color */
   font-weight: 300;
   padding: 10px;
   border-radius: 3px;
@@ -76,7 +83,7 @@ a:active { /* selected link */
 }
 
 .btn:visited { /* visited link */
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn:hover,
@@ -102,7 +109,7 @@ a:active { /* selected link */
 /* Layout styling */
 
 .container {
-  padding-inline: 15px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
 }
