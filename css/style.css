@@ -427,7 +427,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .container {
-    padding-inline: 15px;
+    padding: 15px;
   }
 }
 
@@ -435,9 +435,9 @@ Large devices (1024px or larger)
 Animation
 ================================= */
 @keyframes color-change {
-  0% {fill: #f4ff27;}
-  50% {fill: #bafa2e;}
-  100% {fill: #1cd004;}
+  0% { fill: #f4ff27; }
+  50% { fill: #bafa2e; }
+  100% { fill: #1cd004; }
 }
 
 .cactus {
@@ -449,8 +449,8 @@ Animation
 }
 
 @keyframes wheel-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
 }
 
 .small-wheel {
@@ -462,7 +462,7 @@ Animation
 }
 
 @keyframes wheel-rotate {
-  50% {transform: rotate(45deg);}
+  50% { transform: rotate(45deg); }
 }
 
 .large-wheel-left {
