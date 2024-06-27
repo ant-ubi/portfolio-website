@@ -201,7 +201,7 @@ nav > ul {
 
 .navtoggle.responsive li {
   display: block;
-  padding: 10px 0;
+  padding: 0;
   border-top: 1px solid #2733b8;
 }
 
@@ -210,11 +210,12 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 10px 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
   text-decoration: none;
+  display: block;
 }
 
 nav > ul > li > a:visited {
