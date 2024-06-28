@@ -145,6 +145,11 @@ a:active { /* selected link */
   padding: 0 1em 2em;
 }
 
+.project-card_media {
+  height: 100%;
+  display: flex;
+}
+
 .section {
   padding: 3em;
 }
