@@ -109,7 +109,7 @@ a:active { /* selected link */
 /* Layout styling */
 
 .container {
-  padding: 15px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
 }
