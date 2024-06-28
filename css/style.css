@@ -91,6 +91,7 @@ a:active { /* selected link */
 .btn:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+  color: #fff;
 }
 
 .btn:active { /* selected link */
@@ -322,7 +323,7 @@ nav > ul > li > a:active {
 }
 
 main {
-  padding-top: 70.4px;
+  padding-top: 40.4px;
 }
 
 main p,
@@ -370,8 +371,12 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  main {
+    padding-top: 110.59px;
+  }
+
   .logo {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   nav {
