@@ -415,6 +415,7 @@ Medium devices (640px and larger)
 
   .project-card {
     flex-direction: row-reverse;
+    gap: 2em;
   }
 
   .project-card_animation {
